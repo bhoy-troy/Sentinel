@@ -81,9 +81,6 @@ fi
 # DB setup #
 ############
 
-file_env 'DB_USER'
-file_env 'DB_PASSWORD'
-
 # Lower case DB_VENDOR
 DB_VENDOR=`echo $DB_VENDOR | tr A-Z a-z`
 
